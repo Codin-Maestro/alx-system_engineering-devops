@@ -103,6 +103,11 @@ egrep 'root' /etc/passwd
 #!/bin/bash
 egrep -c 'bin' /etc/passwd
 
+or 
+
+#!/bin/bash
+ grep 'bin' /etc/passwd | wc -l
+
 
 
 
